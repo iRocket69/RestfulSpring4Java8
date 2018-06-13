@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+E:\Trabajo\RFC\RFCFront\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+755470862.index

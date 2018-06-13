@@ -1,0 +1,5 @@
+package com.softwarefactory.rfc.dao;
+
+public interface BaseDao {
+	
+}

@@ -1,0 +1,23 @@
+package com.softwarefactory.rfc.spring.service;
+
+import org.springframework.stereotype.Service;
+
+import com.softwarefactory.rfc.model.Entity;
+
+@Service
+public class BaseServiceImpl implements BaseService {
+
+	@Override
+	public int saveEntity(Entity entity) {
+		return entity.getId() + 1;
+	}
+
+	@Override
+	public Entity getEntity(int id) {
+		Entity entity = new Entity();
+		entity.setId(1231);
+		entity.setName("Hello there!");
+		return entity;
+	}
+
+}

@@ -1,0 +1,5 @@
+com\boraji\tutorial\spring\config\WebConfig.class
+com\boraji\tutorial\spring\config\RootConfig.class
+com\softwarefactory\rfc\model\Book.class
+com\boraji\tutorial\spring\controller\HelloWorldController.class
+com\boraji\tutorial\spring\config\MyWebAppInitializer.class

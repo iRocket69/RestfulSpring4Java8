@@ -1,0 +1,32 @@
+package com.boraji.tutorial.spring.controller;
+
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.softwarefactory.rfc.model.Entity;
+
+@RestController
+public class HelloWorldController {
+
+  /* @Autowired
+   private BookService bookService;*/
+
+   /*---Add new book---*/
+   @PostMapping("/test")
+   public ResponseEntity<?> save(@RequestBody Entity book) {
+      //long id = bookService.save(book);
+      return ResponseEntity.ok().body("New Book has been saved with ID:" + book.getId());
+   }
+
+   /*---Get a book by id---*/
+   @GetMapping("/test/{id}")
+   public ResponseEntity<Entity> get(@PathVariable("id") long id) {
+      //Book book = bookService.get(id);
+      return ResponseEntity.ok().body(new Entity());
+   }
+}

@@ -1,0 +1,19 @@
+package com.softwarefactory.rfc.dao;
+
+import com.softwarefactory.rfc.model.Entity;
+
+public class BaseDaoImpl implements BaseDao {
+
+	@Override
+	public int saveEntity(Entity entity) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Entity getEntity(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.softwarefactory.rfc.spring.service;
+
+import com.softwarefactory.rfc.model.Entity;
+
+public class BaseServiceImpl implements BaseService {
+
+	@Override
+	public int saveEntity(Entity entity) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Entity getEntity(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.softwarefactory.rfc.spring.conf;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = { "com.softwarefactory.rfc.spring.service" })
+public class RootConfig {
+   //Service and Repository beans configuration
+   //....
+}

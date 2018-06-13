@@ -1,0 +1,5 @@
+package com.softwarefactory.rfc.model;
+
+public class Book {
+
+}

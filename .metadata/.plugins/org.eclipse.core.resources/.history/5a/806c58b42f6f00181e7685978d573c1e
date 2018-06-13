@@ -1,0 +1,5 @@
+package com.softwarefactory.rfc.spring.service;
+
+public interface BaseService {
+
+}

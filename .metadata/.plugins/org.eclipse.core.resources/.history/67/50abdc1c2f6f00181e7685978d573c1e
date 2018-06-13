@@ -1,0 +1,10 @@
+package com.softwarefactory.rfc.spring.conf;
+
+/**
+ * @author imssbora
+ */
+//@Configuration
+public class RootConfig {
+   //Service and Repository beans configuration
+   //....
+}
